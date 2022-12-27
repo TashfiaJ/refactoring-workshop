@@ -2,7 +2,8 @@ FizzBuzz:
 1. inappropriate naming: FizzBuzz class: line 11
 2. dead code Fizzbuzz class: line 21
 3. switch smell: interface implementation: IdivisibilityChcecker interface
-4. long Method: same as above
+4. duplicate code: same as switch smell
+5. long Method: same as above
 
 PlainTextToHTMLConverter
 1. switch case:method extraction implementing interface: IpatternMatcher interface
