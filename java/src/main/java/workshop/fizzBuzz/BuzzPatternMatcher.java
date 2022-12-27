@@ -1,6 +1,6 @@
 package fizzBuzz;
 
-public class BuzzPatternMatcher implements PatternMatcher{
+public class BuzzPatternMatcher implements IDivisibilityChecker{
 
     @Override
     public boolean matches(int number) {
