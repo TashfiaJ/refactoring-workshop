@@ -3,16 +3,16 @@ package fizzBuzz;
 import java.util.List;
 
 public class FizzBuzz {
-    private List<PatternMatcher> patternMatchers;
-    public FizzBuzz(List<PatternMatcher> patternMatchers) {
-        this.patternMatchers = patternMatchers;
+    private List<IDivisibilityChecker> divisibilityCheckers;
+    public FizzBuzz(List<IdivisibilityChecker> divisibilityCheckers) {
+        this.divisibilityCheckers = divisibilityCheckers;
     }
 
-    public String say(int number) {
+    public String checkNumber(int number) {
         String strReturn = String.valueOf(number);
 
-        for (PatternMatcher patternMatcher : patternMatchers) {
-            if (patternMatcher.matches(number)) strReturn = patternMatcher.generateResponse();
+        for (IDivisibilityChecker divisibilityChecker : divisibilityCheckers) {
+            if (divisibilityChecker.matches(number)) strReturn = divisibilityChecker.generateResponse();
         }
 
         return strReturn;
