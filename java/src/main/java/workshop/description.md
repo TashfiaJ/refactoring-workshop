@@ -13,3 +13,4 @@ Triviagame:
 1.Long Method: extract method by implementing Player and Question class
 2.Deadcode: isPlayable() removed
 3.switch smell: (hashmap Questions.java line: 7)
+4. duplicate code: main code line: 25, createRockQuestion)
