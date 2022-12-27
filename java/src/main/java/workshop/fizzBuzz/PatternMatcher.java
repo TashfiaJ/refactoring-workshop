@@ -1,6 +1,6 @@
 package fizzBuzz;
 
-public interface PatternMatcher {
+public interface IDivisibilityChecker {
     boolean matches(int number);
     String generateResponse();
 }
