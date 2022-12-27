@@ -5,11 +5,11 @@ FizzBuzz:
 4. long Method: same as above
 
 PlainTextToHTMLConverter
-switch case:method extraction implementing interface: IpatternMatcher interface
-long method: same as switch smell
-comment smell: removed all comment
+1.switch case:method extraction implementing interface: IpatternMatcher interface
+2.long method: same as switch smell
+3.comment smell: removed all comment
 
 Triviagame:
-Long Method: extract method by implementing Player and Question class
-Deadcode: isPlayable() removed
-switch smell: (hashmap Questions.java line: 7)
+1.Long Method: extract method by implementing Player and Question class
+2.Deadcode: isPlayable() removed
+3.switch smell: (hashmap Questions.java line: 7)
