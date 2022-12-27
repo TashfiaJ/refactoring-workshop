@@ -1,6 +1,6 @@
 package plainTextToHTMLConverter;
 
-public class NewLinePatternMatcher implements PatternMatcher{
+public class NewLinePatternMatcher implements IPatternMatcher{
     @Override
     public boolean matches(String plainText) {
         return plainText.equals("\n");
