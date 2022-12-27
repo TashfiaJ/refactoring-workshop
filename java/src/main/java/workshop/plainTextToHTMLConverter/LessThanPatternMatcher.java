@@ -1,6 +1,6 @@
 package plainTextToHTMLConverter;
 
-public class LessThanPatternMatcher implements PatternMatcher{
+public class LessThanPatternMatcher implements IPatternMatcher{
     @Override
     public boolean matches(String plainText) {
         return plainText.equals("<");
